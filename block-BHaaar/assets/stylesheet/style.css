@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+* {
+	box-sizing: border-box;
+}
+main section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+div {
+	width: 100%;
+	margin: 10px;	
+	color: white;
+}
+div div {
+  display: inline-block;
+	height: 180px;
+	padding: 10px;
+} 
+
+.g-guidelines {
+	width: 45%;
+	background-color: #FE5349;
+}
+
+.material-design {
+	background-color: #0C8871;
+	width: 20%;
+}
+
+.doodle{
+	background-color: #B601FF;
+	width: 20%;
+}
+
+.google-plus {
+	background-color: #0DC1FD;
+  width: 20%;
+}
+
+.minutes {
+	background-color: #08CA80;
+	width: 45%;
+}
+.glass-design{
+	background-color: #01F361;
+	width: 20%;
+}
+
+.html {
+	background-color: #E8FF1D;
+	width: 20%;
+}
+
+.css {
+	background-color: #FE7405;
+	width: 20%;
+}
+
+.js {
+	background-color: #E52F2D;
+	width: 45%;
+}
