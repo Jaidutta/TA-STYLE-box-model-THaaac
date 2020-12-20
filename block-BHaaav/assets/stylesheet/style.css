@@ -1,0 +1,155 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+body {
+  line-height: 1.5;
+  color: white;
+}
+.container {
+  width: 80%;
+  margin: 0 auto
+}
+h2 {
+  font-size: 34px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+header {
+  background-color: #2D3040;
+  text-align: center;
+  
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.nav-link {
+  font-size: 18px;
+  margin: 15px;
+}
+.heading {
+  background-color: #2E3141;
+  padding: 80px 0;
+}
+
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  border-bottom: .5px solid rgb(245, 243, 243);
+}
+
+p.heading-para {
+  color: #8A8C95;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.section {
+  padding: 30px 0;
+}
+.section-camera {
+  background-color: #4C5C96; 
+}
+
+img {
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin: 12px 0;
+}
+
+.section a {
+  font-weight: 700;
+}
+hr {
+  color: #ffffffc9;
+  font-weight: 100;
+  margin: 20px 0;
+}
+
+.section-lady {
+  background-color: #45558D;
+}
+
+.section-axe-log {
+  background-color: #3F4E85;
+}
+
+.footer {
+ background-color: #2D3040;
+ color: #757781;
+ padding: 20px 0;
+}
+
+.footer-txt {
+ margin: 0;
+ display: inline-block;
+ font: 18px;
+}
