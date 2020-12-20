@@ -110,6 +110,7 @@ h1 {
   text-align: center;
   font-size: 40px;
   margin: 15px;
+  text-transform: uppercase;
 }
 h2 {
   text-align: center;
@@ -120,6 +121,7 @@ h2 {
 h3 {
   text-align: center;
   font-size: 18px;
+  margin: 12px 10px;
 }
 
 .box-container { 
@@ -141,6 +143,7 @@ h3 {
 
 .exercise-2 {
   margin: auto;
+  
 }
 
 .border {
